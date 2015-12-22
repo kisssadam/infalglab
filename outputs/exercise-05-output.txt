@@ -1,0 +1,21 @@
+Developed by Kiss Sándor Ádám
+
+n: the number of elements in the generated array
+m: the maximum possible value in the array
+Results are in seconds!
+
+Insertion sort algorithm:
+          n \ m               2               4              10            1000
+           1000    0.0015620727    0.0015576950    0.0015324378    0.0015022134
+          10000    0.0439787759    0.0670853142    0.0735903226    0.0814533550
+         100000    4.2100844063    6.1672743373    7.4073466068    8.5544054806
+
+Shell sort algorithm:
+          n \ m               2               4              10            1000
+           1000    0.0001706219    0.0001763652    0.0001618027    0.0002506747
+          10000    0.0007678067    0.0009015057    0.0010437333    0.0018994225
+         100000    0.0161838380    0.0218746233    0.0265795333    0.0382422053
+
+Insertion sort function: valid
+Shell sort function: valid
+

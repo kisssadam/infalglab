@@ -1,0 +1,44 @@
+Leszámláló rendezés	elapsedSeconds: 0.2368723470	size: 100000	maxValue: 100000000
+
+Edényrendezés	elapsedSeconds: 0.0000012747	size: 1	maxValue: 1
+Edényrendezés	elapsedSeconds: 0.0000011943	size: 10	maxValue: 100
+Edényrendezés	elapsedSeconds: 0.0000124771	size: 100	maxValue: 10000
+Edényrendezés	elapsedSeconds: 0.0001443324	size: 1000	maxValue: 1000000
+Edényrendezés	elapsedSeconds: 0.0021599320	size: 10000	maxValue: 100000000
+
+Edényrendezés hashtáblával	elapsedSeconds: 0.0000002490	size: 1	maxValue: 1
+Edényrendezés hashtáblával	elapsedSeconds: 0.0000059261	size: 10	maxValue: 100
+Edényrendezés hashtáblával	elapsedSeconds: 0.0005774755	size: 100	maxValue: 10000
+Edényrendezés hashtáblával	elapsedSeconds: 0.0693863773	size: 1000	maxValue: 1000000
+Edényrendezés hashtáblával	elapsedSeconds: 6.2948707300	size: 10000	maxValue: 100000000
+
+Edényrendezés mutatókkal	elapsedSeconds: 0.0000015154	size: 1	maxValue: 1
+Edényrendezés mutatókkal	elapsedSeconds: 0.0000009198	size: 10	maxValue: 100
+Edényrendezés mutatókkal	elapsedSeconds: 0.0003047973	size: 100	maxValue: 10000
+Edényrendezés mutatókkal	elapsedSeconds: 0.4988767680	size: 1000	maxValue: 1000000
+
+Radix rendezés	g: 2	elapsedSeconds: 1.8131788557	size: 100000	maxValue: 100000000
+Radix rendezés	g: 3	elapsedSeconds: 1.1575815089	size: 100000	maxValue: 100000000
+Radix rendezés	g: 4	elapsedSeconds: 1.0001824150	size: 100000	maxValue: 100000000
+Radix rendezés	g: 5	elapsedSeconds: 0.9190282802	size: 100000	maxValue: 100000000
+Radix rendezés	g: 6	elapsedSeconds: 0.8853512083	size: 100000	maxValue: 100000000
+Radix rendezés	g: 7	elapsedSeconds: 0.8202403283	size: 100000	maxValue: 100000000
+Radix rendezés	g: 8	elapsedSeconds: 0.7319294063	size: 100000	maxValue: 100000000
+Radix rendezés	g: 9	elapsedSeconds: 0.7343073818	size: 100000	maxValue: 100000000
+Radix rendezés	g: 10	elapsedSeconds: 0.6763190945	size: 100000	maxValue: 100000000
+Radix rendezés	g: 11	elapsedSeconds: 0.6440344358	size: 100000	maxValue: 100000000
+Radix rendezés	g: 12	elapsedSeconds: 0.6397867530	size: 100000	maxValue: 100000000
+Radix rendezés	g: 13	elapsedSeconds: 0.6523949220	size: 100000	maxValue: 100000000
+Radix rendezés	g: 14	elapsedSeconds: 0.6013654283	size: 100000	maxValue: 100000000
+Radix rendezés	g: 15	elapsedSeconds: 0.5970187786	size: 100000	maxValue: 100000000
+Radix rendezés	g: 16	elapsedSeconds: 0.5858509991	size: 100000	maxValue: 100000000
+Radix rendezés	g: 17	elapsedSeconds: 0.5838402711	size: 100000	maxValue: 100000000
+Radix rendezés	g: 18	elapsedSeconds: 0.5792096056	size: 100000	maxValue: 100000000
+Radix rendezés	g: 19	elapsedSeconds: 0.5923829007	size: 100000	maxValue: 100000000
+Radix rendezés	g: 20	elapsedSeconds: 0.5879413385	size: 100000	maxValue: 100000000
+
+Leszámláló rendezés: valid
+Edényrendezés: valid
+Edényrendezés mutatókkal: valid
+Edényrendezés hashtáblával: valid
+Radix rendezés: valid

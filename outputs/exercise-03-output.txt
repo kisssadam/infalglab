@@ -1,0 +1,17 @@
+Developed by Kiss Sándor Ádám
+
+n: the number of elements in the generated array
+m: the maximum possible value in the array
+Results are in seconds!
+
+Ordering algorithm:
+          n \ m               2               4              10            1000
+             10    0.0000008478    0.0000013418    0.0000017846    0.0000018484
+            100    0.0000398606    0.0000300049    0.0000305319    0.0000552460
+           1000    0.0015063177    0.0015253001    0.0015924529    0.0049864976
+
+Binary search algorithm:
+          n \ m               2               4              10            1000
+             10    0.0000001158    0.0000001424    0.0000001328    0.0000001286
+            100    0.0000000754    0.0000000645    0.0000000723    0.0000000698
+           1000    0.0000000514    0.0000000522    0.0000000589    0.0000000895

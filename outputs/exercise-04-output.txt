@@ -1,0 +1,78 @@
+Developed by Kiss Sándor Ádám
+
+n: the number of elements in the generated array
+m: the maximum possible value in the array
+Results are in seconds!
+
+Bubble sort algorithm:
+          n \ m               2               4              10            1000
+             10    0.0000017175    0.0000018484    0.0000023332    0.0000019230
+            100    0.0000646406    0.0000485456    0.0000567660    0.0000768863
+           1000    0.0035201680    0.0042742075    0.0047989415    0.0051079999
+
+Faster bubble sort algorithm:
+          n \ m               2               4              10            1000
+             10    0.0000014973    0.0000017424    0.0000018408    0.0000017433
+            100    0.0000461767    0.0000488192    0.0000603653    0.0000705226
+           1000    0.0035165972    0.0042998620    0.0048344056    0.0051912993
+
+Merge sort algorithm:
+          n \ m               2               4              10            1000
+             10    0.0000024926    0.0000020491    0.0000021312    0.0000019999
+            100    0.0000091290    0.0000096384    0.0000129016    0.0000108199
+           1000    0.0001023938    0.0001139295    0.0001241113    0.0001449924
+
+Hybrid merge sort algorithm:
+          n \ m               2               4              10            1000
+             10    0.0000015108    0.0000019918    0.0000019587    0.0000018505
+            100    0.0000396359    0.0000422605    0.0000585887    0.0000490455
+           1000    0.0103722192    0.0053186147    0.0045325655    0.0045295447
+
+Bubble sort function: valid
+Faster bubble sort function: valid
+Merge sort function: valid
+Hybrid merge sort function: valid
+
+Calculating the optimal x for hybrid merge sort. Array size fixed: 10000
+faster bubble sort: 0.6175007910
+x: 0	hybrid merge sort: 154.8945109300
+x: 1	hybrid merge sort: 59.7506674130
+x: 2	hybrid merge sort: 26.4256243150
+x: 3	hybrid merge sort: 23.2960192700
+x: 4	hybrid merge sort: 5.0202886010
+x: 5	hybrid merge sort: 4.9101708820
+x: 6	hybrid merge sort: 4.8507447400
+x: 7	hybrid merge sort: 5.0502302920
+x: 8	hybrid merge sort: 3.8876430520
+x: 9	hybrid merge sort: 1.1821076520
+x: 10	hybrid merge sort: 1.1907290360
+x: 11	hybrid merge sort: 1.1021743400
+x: 12	hybrid merge sort: 1.2510676250
+x: 13	hybrid merge sort: 1.1855200810
+x: 14	hybrid merge sort: 1.2139216690
+x: 15	hybrid merge sort: 1.1629348670
+x: 16	hybrid merge sort: 1.1785674410
+x: 17	hybrid merge sort: 1.2856015730
+x: 18	hybrid merge sort: 0.8438482520
+x: 19	hybrid merge sort: 0.5730893210 <--------
+x: 20	hybrid merge sort: 0.5454807470 <--------
+x: 21	hybrid merge sort: 0.5520458030 <--------
+x: 22	hybrid merge sort: 0.5572105040 <--------
+x: 23	hybrid merge sort: 0.5341472950 <--------
+x: 24	hybrid merge sort: 0.5456516770 <--------
+x: 25	hybrid merge sort: 0.5379100660 <--------
+x: 26	hybrid merge sort: 0.5296946850 <--------
+x: 27	hybrid merge sort: 0.5374017950 <--------
+x: 28	hybrid merge sort: 0.5512717380 <--------
+x: 29	hybrid merge sort: 0.5343725010 <--------
+x: 30	hybrid merge sort: 0.5624108330 <--------
+x: 31	hybrid merge sort: 0.5367223240 <--------
+x: 32	hybrid merge sort: 0.5238644920 <--------
+x: 33	hybrid merge sort: 0.5598395460 <--------
+x: 34	hybrid merge sort: 0.5530624890 <--------
+x: 35	hybrid merge sort: 0.5342767890 <--------
+x: 36	hybrid merge sort: 0.5375545280 <--------
+x: 37	hybrid merge sort: 0.5348864740 <--------
+x: 38	hybrid merge sort: 0.4345100460 <--------
+Merge sort is faster than bubble sort using x: 19
+

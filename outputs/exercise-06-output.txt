@@ -1,0 +1,23 @@
+Developed by Kiss Sándor Ádám
+
+n: the number of elements in the generated array
+m: the maximum possible value in the array
+Results are in seconds!
+
+Insertion sort algorithm:
+          n \ m               2               4              10            1000
+             10    0.0000011811    0.0000011180    0.0000012480    0.0000012772
+            100    0.0000369951    0.0000453125    0.0000453147    0.0000429811
+           1000    0.0016531823    0.0011212200    0.0010547888    0.0009732991
+          10000    0.0536160600    0.0883731071    0.0910153728    0.0995140681
+
+Matrix sort algorithm:
+          n \ m               2               4              10            1000
+             10    0.0000045717    0.0000026896    0.0000028354    0.0000029519
+            100    0.0001305169    0.0001456040    0.0001070759    0.0001443688
+           1000    0.0057667620    0.0041316419    0.0036142462    0.0033929483
+          10000    0.3198657175    0.3305493747    0.3521628389    0.3552970103
+
+Insertion sort function: valid
+Matrix sort function: valid
+
