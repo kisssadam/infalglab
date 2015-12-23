@@ -305,8 +305,8 @@ private:
 			return;
 		} else {
 			processNodeFunction(node);
-			postorderTraversal(node->getLeft(), processNodeFunction);
-			postorderTraversal(node->getRight(), processNodeFunction);
+			preorderTraversal(node->getLeft(), processNodeFunction);
+			preorderTraversal(node->getRight(), processNodeFunction);
 		}
 	}
 
