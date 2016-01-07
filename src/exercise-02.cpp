@@ -54,15 +54,7 @@ int findMinRecursively(size_t size, int *array, int firstPosition, int lastPosit
 		int leftResult = findMinRecursively(size, array, firstPosition, k);
 		int rightResult = findMinRecursively(size, array, k + 1, lastPosition);
 		
-		int result;
-		
-		if (array[leftResult] < array[rightResult]) {
-			result = leftResult;
-		} else {
-			result = rightResult;
-		}
-
-		return result;
+		return array[leftResult] <= array[rightResult] ? leftResult : rightResult;
 	}
 }
 
